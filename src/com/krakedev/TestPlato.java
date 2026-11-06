@@ -6,17 +6,60 @@ public class TestPlato {
 		
 		Plato platoA = new Plato();
 		
-		platoA.nombre = "Ceviche";
-		platoA.tipo = "Plato fuerte";
-		platoA.precio = 8.5;
-		platoA.disponible = true;
-		
 		System.out.println("=====PlatoA Creado=====");
 		System.out.println("Nombre: " + platoA.nombre);
 		System.out.println("Tipo: " + platoA.tipo);
 		System.out.println("Precio: " + platoA.precio);
-		System.out.println("Disponible: " + platoA.disponible);
+		System.out.println("Disponible: " + (platoA.disponible ? "Sí" : "No"));
+		
+		platoA.nombre = "Coctel de camarón";
+		platoA.tipo = "Entrada";
+		platoA.precio = 4.5;
+		platoA.disponible = true;
+		
+		System.out.println("=====PlatoA Valores asignados=====");
+		System.out.println("Nombre: " + platoA.nombre);
+		System.out.println("Tipo: " + platoA.tipo);
+		System.out.println("Precio: " + platoA.precio);
+		System.out.println("Disponible: " + (platoA.disponible ? "Sí" : "No"));
 
+		Plato platoB = new Plato();
+		
+		System.out.println("=====PlatoB Creado=====");
+		System.out.println("Nombre: " + platoB.nombre);
+		System.out.println("Tipo: " + platoB.tipo);
+		System.out.println("Precio: " + platoB.precio);
+		System.out.println("Disponible: " + (platoB.disponible ? "Sí" : "No"));
+		
+		platoB.nombre = "Arroz Marinero";
+		platoB.tipo = "Plato fuerte";
+		platoB.precio = 12.80;
+		platoB.disponible = false;
+		
+		System.out.println("=====PlatoB Valores asignados=====");
+		System.out.println("Nombre: " + platoB.nombre);
+		System.out.println("Tipo: " + platoB.tipo);
+		System.out.println("Precio: " + platoB.precio);
+		System.out.println("Disponible: " + (platoB.disponible ? "Sí" : "No"));
+		
+		Plato platoC = new Plato();
+		
+		System.out.println("=====PlatoC Creado=====");
+		System.out.println("Nombre: " + platoC.nombre);
+		System.out.println("Tipo: " + platoC.tipo);
+		System.out.println("Precio: " + platoC.precio);
+		System.out.println("Disponible: " + (platoC.disponible ? "Sí" : "No"));
+		
+		platoC.nombre = "CheeseCake de maracuya";
+		platoC.tipo = "Postre";
+		platoC.precio = 3.5;
+		platoC.disponible = true;
+		
+		System.out.println("=====PlatoC Valores asignados=====");
+		System.out.println("Nombre: " + platoC.nombre);
+		System.out.println("Tipo: " + platoC.tipo);
+		System.out.println("Precio: " + platoC.precio);
+		System.out.println("Disponible: " + (platoC.disponible ? "Sí" : "No"));
 	}
 
 }
