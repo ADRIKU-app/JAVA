@@ -30,6 +30,12 @@ public class TestCalculadora {
 		
 		System.out.println("Resultado División: " + r4);
 		
+		double r5;
+		
+		r5 = c1.promediar(3, 6, 9);
+		
+		System.out.println("Resultado Promedio: " + r5);
+		
 	}
 
 }
