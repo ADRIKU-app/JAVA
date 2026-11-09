@@ -11,9 +11,9 @@ public class Calculadora {
 		
 	}
 	
-	public int restar (int a, int b) {
+	public double restar (int a, int b) {
 		
-		int resultado;
+		double resultado;
 		resultado = a - b;
 		
 		return resultado;

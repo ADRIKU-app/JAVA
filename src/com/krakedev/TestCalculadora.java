@@ -12,11 +12,17 @@ public class TestCalculadora {
 		
 		System.out.println("Resultado Suma: " + r1);
 		
-		int r2;
+		double r2;
 		
 		r2 = c1.restar(5, 3);
 		
 		System.out.println("Resultado Resta: " + r2);
+		
+		double r3;
+		
+		r3 = c1.multiplicar(10, 2);
+		
+		System.out.println("Resultado Multiplicación: " + r3);
 		
 	}
 
