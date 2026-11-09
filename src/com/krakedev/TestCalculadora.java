@@ -36,6 +36,11 @@ public class TestCalculadora {
 		
 		System.out.println("Resultado Promedio: " + r5);
 		
+		//c1.mostrarResultado();
+		
+		//System.out.println("Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos");
+
+		
 	}
 
 }
