@@ -2,12 +2,12 @@ package com.krakedev;
 
 public class Rectangulo {
 	
-	public int base;
-	public int altura;
+	public double base;
+	public double altura;
 	
-	public int calcularArea() {
+	public double calcularArea() {
 		
-		int area = base * altura;
+		double area = base * altura;
 		return area;
 	}
 	
