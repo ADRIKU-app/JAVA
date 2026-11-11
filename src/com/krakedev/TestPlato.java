@@ -60,6 +60,15 @@ public class TestPlato {
 		System.out.println("Tipo: " + platoC.getTipo());
 		System.out.println("Precio: " + platoC.getPrecio());
 		System.out.println("Disponible: " + (platoC.isDisponible() ? "Sí" : "No"));
+		
+		Plato platoD = new Plato("Ensalada de frutas", "postre", 2, true);
+		
+		System.out.println("=====PlatoD Valores asignados=====");
+		System.out.println("Nombre: " + platoD.getNombre());
+		System.out.println("Tipo: " + platoD.getTipo());
+		System.out.println("Precio: " + platoD.getPrecio());
+		System.out.println("Disponible: " + (platoD.isDisponible() ? "Sí" : "No"));
+
 	}
 
 }

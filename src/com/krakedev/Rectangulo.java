@@ -5,6 +5,15 @@ public class Rectangulo {
 	public double base;
 	public double altura;
 	
+	public Rectangulo() {
+		
+	}
+	
+	public Rectangulo(double base, double altura) {
+		this.base = base;
+		this.altura = altura;
+	}
+	
 	public double calcularArea() {
 		
 		double area = base * altura;

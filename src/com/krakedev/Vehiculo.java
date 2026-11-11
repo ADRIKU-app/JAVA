@@ -7,6 +7,21 @@ public class Vehiculo {
 	private String anio;
 	private double precio;
 	
+	public Vehiculo() {
+		
+	}
+	
+	public Vehiculo(String marca) {
+		this.marca = marca;
+	}
+	
+	public Vehiculo(String marca, String modelo, String anio, double precio) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.anio = anio;
+		this.precio = precio;
+	}
+	
 	
 	public String getMarca() {
 		return marca;

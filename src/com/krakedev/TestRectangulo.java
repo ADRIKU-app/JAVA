@@ -25,7 +25,16 @@ public class TestRectangulo {
 		resultadoPerimetro2 = r2.calcularPerimetro();
 		
 		System.out.println("Resultado Perímetro: " + resultadoPerimetro2);
+		
+		Rectangulo r3 = new Rectangulo(4, 6);
+		
+		double resultadoPerimetro3;
+		
+		resultadoPerimetro3 = r3.calcularPerimetro();
+		
+		System.out.println("Resultado Perímetro: " + resultadoPerimetro3);
 
+		
 	}
 
 }

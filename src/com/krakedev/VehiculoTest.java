@@ -46,6 +46,24 @@ public class VehiculoTest {
 		System.out.println("Modelo: " + v2.getModelo());
 		System.out.println("Precio: " + v2.getPrecio());
 		
+		System.out.println("====Vehículo 3: Valores Asignados====");
+		
+		Vehiculo v3 = new Vehiculo("Toyota");
+		
+		System.out.println("Año: " + v3.getAnio());
+		System.out.println("Marca: " + v3.getMarca());
+		System.out.println("Modelo: " + v3.getModelo());
+		System.out.println("Precio: " + v3.getPrecio());
+		
+		System.out.println("====Vehículo 4: Valores Asignados====");
+		
+		Vehiculo v4 = new Vehiculo("Kia", "Sportage", "2012", 16000);
+		
+		System.out.println("Año: " + v4.getAnio());
+		System.out.println("Marca: " + v4.getMarca());
+		System.out.println("Modelo: " + v4.getModelo());
+		System.out.println("Precio: " + v4.getPrecio());
+		
 	}
 
 }
